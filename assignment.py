@@ -2,7 +2,6 @@ balance = 10000
 USSD = '*555#'
 options = '1. Buy Airtime.\n2. Buy Data.\n3. Borrow.\n4. Check Balance.\n5. Stop.'
 Code = input('Enter *555# to buy or borrow airtime:\n>>>')
-#if Code == USSD:
 while Code == USSD:
 	print(options)
 	option = int(input('Enter option:\n>>>'))
